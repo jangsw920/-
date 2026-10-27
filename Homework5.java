@@ -28,16 +28,16 @@ class Computer {
     private String Power = "500W";
 
     public void turnOn(){
-        println("Turning on the computer.");
+        System.out.println("Turning on the computer.");
     }
 
     public void printInfo(){
-        println("The spec of the computer");
-        println("\tCPU: " + CPU);
-        println("\tMemory: " + Memory);
-        println("\tHDD: " + HDD);
-        println("\tColor: " + Color);
-        println("\tPower: " + Power);
+        System.out.println("The spec of the computer");
+        System.out.println("\tCPU: " + CPU);
+        System.out.println("\tMemory: " + Memory);
+        System.out.println("\tHDD: " + HDD);
+        System.out.println("\tColor: " + Color);
+        System.out.println("\tPower: " + Power);
     }
 }
 
@@ -48,13 +48,13 @@ class Monitor {
     private String Power = "45W";
 
     public void turnOn(){
-        println("Turning on the monitor.");
+        System.out.println("Turning on the monitor.");
     }
 
     public void printInfo(){
-        println("The spec of the monitor");
-        println("\tSize: " + Size);
-        println("\tColor: " + Color);
-        println("\tPower: " + Power);
+        System.out.println("The spec of the monitor");
+        System.out.println("\tSize: " + Size);
+        System.out.println("\tColor: " + Color);
+        System.out.println("\tPower: " + Power);
     }
 }
