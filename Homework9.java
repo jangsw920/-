@@ -15,6 +15,7 @@ public class Homework9 {
         Map<String, String> IdNum = new HashMap<>();
 
         try {
+            //텍스트 파일의 파일 경로 부분을 바꿔서 실행하시길 부탁드립니다.
             Scanner fs = new Scanner(new File("C:\\Users\\jangs\\IdeaProjects\\Hello\\src\\db.txt"));
             while (fs.hasNextLine()) {
                 String line = fs.nextLine();
